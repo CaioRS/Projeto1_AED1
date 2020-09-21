@@ -37,5 +37,6 @@ class medico {
     if(c1 == cidade){
       Console.WriteLine("O Médico {0} é da sua cidade, ligue para o numero {1}", nome, contato);
     }
+    else Console.WriteLine("Nao existem Medicos cadastrados na sua cidade");
   }
 }  

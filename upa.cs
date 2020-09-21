@@ -33,10 +33,10 @@ class upa {
     return cidade;
   }
 //Metodo
-  public void UpaoProxima(string c1){
+  public void UpaProxima(string c1){
     if(c1 == cidade){
       Console.WriteLine("A upa no bairro{0} fica na sua cidade, ligue para o numero {1}", bairro, contato);
-    }
+    }else Console.WriteLine("Nao Existe nenhuma UPA cadastrada na sua CIDADE");
   }
 
 }  

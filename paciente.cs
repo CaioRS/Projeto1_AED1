@@ -25,11 +25,11 @@ class paciente {
   }
   
   public void PegaSintoma2 (string NovoSintoma){
-    sintoma2 = NovoSintoma2;
+    sintoma2 = NovoSintoma;
   }
 
   public void PegaSintoma3 (string NovoSintoma){
-  sintoma3 = NovoSintoma3;
+  sintoma3 = NovoSintoma;
   }
 
   public void PegaContato (string NovoContato){

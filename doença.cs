@@ -20,15 +20,15 @@ class doença {
   }
 
   public void PegaSintoma1 (string NovoSintoma){
-    sintoma1 = NovoSintoma1;
+    sintoma1 = NovoSintoma;
   }
 
   public void PegaSintoma2 (string NovoSintoma){
-    sintoma2 = NovoSintoma2;
+    sintoma2 = NovoSintoma;
   }
 
   public void PegaSintoma3 (string NovoSintoma){
-  sintoma3 = NovoSintoma3;
+  sintoma3 = NovoSintoma;
   }
 
   public void PegaTratamento (string NovoTratamento){
@@ -78,11 +78,11 @@ class doença {
 
     if( (sintoma1 == s1 || sintoma1 == s2 || sintoma1 == s3) && (sintoma2 == s1 || sintoma2 == s2 || sintoma2 == s3) && (sintoma3 == s1 || sintoma3 == s2 || sintoma3 == s3) ){ // compara os sintomas enviados com os sintomas definidos da doenca
 
-      return nome;
+      return "Sintomas se encaixam com esta doenca";
     }
 
     else {
-      Console.WriteLine("Nenhuma Doença cadastrada se encaixa com os sintomas, enviar os dados ao médico");
+      return "Esta doenca nao se encaixa aos sintomas";
     }
   }
 
